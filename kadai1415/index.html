@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>岐阜協立大学経営学部経営情報学科</title>
+    <style>
+        body {
+            background-color: #adcae04f;
+            font-family: Arial, sans-serif;
+        }
+        .section {
+            box-sizing: border-box;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+        }
+        .Section1, .Section2, .Section3 {
+            transition: transform 0.3s;
+        }
+        .Section1 {
+            background-color: #ff8a8a;
+            border-radius: 10px;
+            border: 2px solid #333;
+            margin: 20px 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #fcc3c3, #ff4a4a);
+        }
+        .Section2 {
+            background-color: #8797ff;
+            border-radius: 10px;
+            box-shadow: 3px 3px 10px rgba(0,0,0,0.1);
+            border: 2px solid #333;
+            margin: 20px 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #b4bdf9, #4a57ff);
+        }
+        .Section3 {
+            background-color: #e5fb67;
+            border-radius: 10px;
+            border: 2px solid #333;
+            margin: 0px 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #f5ffbb, #c9d926);
+        }
+        .Section1:hover, .Section2:hover, .Section3:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        }
+        @media (min-width: 850px) {
+            .section {
+                flex: 1 1 calc(20% - 40px); 
+                margin: 20px;
+            }
+        }
+        h3.q1 {
+            position: relative;
+            padding-left: 40px; 
+        }
+        h3.q1::before {
+            content: '→';
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 24px; 
+            height: 24px; 
+            background-color: #00a18b; 
+            border-radius: 50%; 
+            color: white; 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1rem; 
+        }
+        h3.q1 {
+            font-family: "M PLUS 1p", sans-serif;
+            color: #333;
+            font-size: 1.5rem;
+            line-height: 1.25;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>岐阜協立大学 経営学部 経営情報学科</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">学科紹介</a></li>
+                    <li><a href="#features">特徴</a></li>
+                    <li><a href="#curriculum">カリキュラム</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="about" class="container">
+            <h2>学科紹介</h2>
+            <p>経営情報学科は、経営学を基盤にして、情報デザインやテクノロジーなどの情報科学を学ぶことができる。</p>
+        </section>
+        <section id="features" class="container">
+            <h2>特徴（身につく力）</h2>
+            <ul>
+                <li>経営 「もの」と「こと」をマネジメントする力</li>
+                <li>会計 「もの」と「こと」を財務と事業の視点でつなぐ力</li>
+                <li>情報 「もの」と「こと」の創造や分析をする力</li>
+            </ul>
+            <h3 class="q1">3分野が融合した学びが新しい製品やサービスの創出力をサポートすることが可能になる。</h3>
+        </section>
+        <section id="curriculum" class="container">
+            <h2>カリキュラム(学びの特色)</h2>
+            <h3>「新しい価値を創造する力」が身につく新学科ならではのカリキュラム構成</h3>
+            <h2>3分野の詳しく紹介</h2>
+            <section class="Section1">
+                <h2>経営・マーケティング分野</h2>
+                <p>経営学を体系的に学び、新しい製品・サービスの提案と効果的な売り出し方について考える力や、企業やさまざまな組織の運営力を身につけるための科目が、用意されています</p>
+            </section>
+            <section class="Section2">
+                <h2>会計・ファイナンス分野</h2>
+                <p>会計情報の意味を適切に理解して、企業の財政状態や経営状況から将来性を推測する力を身につけるための科目が、用意されています。</p>
+            </section>
+            <section class="Section3">
+                <h2>情報分野</h2>
+                <p>ビッグデータを利活用する現代ビジネスで、必要不可欠なAI 、IoT、ロボット、クラウド等のデジタルテクノロジーを活用する力を身につけるための科目が、用意されています。</p>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 岐阜協立大学 経営学部 経営情報学科.</p>
+        </div>
+    </footer>
+</body>
+</html>
